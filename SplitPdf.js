@@ -18,7 +18,7 @@ async function splitPdf(pathToPdf, startPage, endPage) {
 }
 
 (async () => {
-    await splitPdf("/Users/srijankc/Desktop/CotivitiProject/Building_Microservices_Designing_Fine-Grained_Systems_(2015).pdf",21,31); // Example: Split pages 3 to 6
+    await splitPdf("/Users/srijankc/Desktop/CotivitiProject/Building_Microservices_Designing_Fine-Grained_Systems_(2015).pdf",158,168); // Example: Split pages 3 to 6
 })();
 
 
